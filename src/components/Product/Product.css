@@ -1,0 +1,33 @@
+.product-wrapper{
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid rgb(157, 204, 29);
+  max-width: 240px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 12px 14px 8px -1px goldenrod;
+}
+
+.flexible {
+  display:flex;
+  flex-direction: row;
+}
+
+.flexible span{
+  flex:1;
+  text-align: right;
+}
+
+.product {
+  padding:20px;
+  font-size: 100px;
+}
+
+.product-wrapper > button{
+  margin: 5px;
+  padding: 5px 15px;
+  width: 80px;
+  background: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
