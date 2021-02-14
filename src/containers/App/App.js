@@ -1,11 +1,9 @@
 import './App.css';
-import Product from '../Product/Product';
+import Products from '../../components/Products';
 
 function App() {
   return (
-    <>
-    <Product />
-    </>
+    <Products />
   );
 }
 
